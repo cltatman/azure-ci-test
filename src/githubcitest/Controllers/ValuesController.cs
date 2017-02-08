@@ -13,7 +13,7 @@ namespace githubcitest.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Canada please", "value2" };
+            return new string[] { "Canada please, eh?", "value2" };
         }
 
         // GET api/values/5
